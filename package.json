@@ -1,0 +1,11 @@
+{
+  "name": "ts_koa_torm_pg-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate code for TypeScript Koa TypeORM-Postgres Backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Berat Reha Sonmez",
+  "license": "ISC"
+}
