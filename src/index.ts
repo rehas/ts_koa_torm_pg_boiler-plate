@@ -1,9 +1,14 @@
+import {useKoaServer} from 'routing-controllers';
 import {Server} from 'http';
 import * as Koa from 'koa';
 
 const app = new Koa();
 const server = new Server(app.callback());
 const port = process.env.PORT || 4000;
+
+useKoaServer(app, {
+  cors: true
+})
 
 console.log("Hello World, boiler plate code init!");
 
